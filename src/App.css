@@ -1,4 +1,8 @@
 .Home {
+
+  background-color: black;
+}
+.Homes {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -8,7 +12,7 @@
   align-items: center;
   color: white;
   justify-content: center;
-  background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 70%);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 100%);
 }
 
 .Buttons {
@@ -64,18 +68,24 @@ div.modal-content {
   margin-bottom: 20px;
 }
 
-.About {
-  cursor: pointer;
-  padding: 10px 20px 10px 20px;
-  border-left: white 1px solid;
-}
+
 
 img.media-object {
   height: 200px;
   margin-bottom: 20px;
+  
+}
+
+.About {
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  border-left: white 1px solid;
+  transition: 0.3s;
 }
 
 .About:hover {
+  background-color:rgba(192,192,192,0.3);
+
 }
 
 .front-back-flex {
@@ -109,31 +119,68 @@ img.media-object {
 .work {
   cursor: pointer;
   padding: 10px 20px 10px 20px;
+  transition: 0.3s;
 }
+.work:hover {
+  background-color:rgba(192,192,192,0.3);
 
+}
 .contact {
   cursor: pointer;
-
   padding: 10px 20px 10px 20px;
   border-left: white 1px solid;
+  transition: 0.3s;
+}
+
+.contact:hover {
+  background-color:rgba(192,192,192,0.3);
+
 }
 
 .Header {
-  border-top: white 1px solid;
-  border-bottom: white 1px solid;
+  
   width: 500px;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  
 }
 
-body {
+.Homes.fade-appear{
+  opacity: 0;
+}
+
+.Header.fade-appear{
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.Header.fade-appear h1{
+  opacity: 0;
+}
+
+.Header.fade-enter-done{
+  opacity: 1;
+  transition: opacity 2000ms linear;
+}
+
+.Header.fade-enter-done{
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  transition: 400ms;
+}
+
+.Homes.fade-enter-done{
   background-image: url(https://www.hdwallpaperslife.com/wp-content/uploads/2017/10/mountain_peaks_4k-2560x1440.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 1;
+  transition: opacity 2000ms linear;
 }
 
 @keyframes App-logo-spin {
