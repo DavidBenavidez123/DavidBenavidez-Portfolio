@@ -36,7 +36,7 @@ class Work extends React.Component {
           className={this.props.className}
         >
           <ModalBody>
-            <h1>Work</h1>
+            <h1>Projects</h1>
             <h3>Qrafts</h3>
             <p>
               Interactive platform to post DIY projects and rate and provide
