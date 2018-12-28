@@ -99,7 +99,7 @@ class Work extends React.Component {
             </p>
             <div className="projectImage">
               <a
-                href="https://loving-mirzakhani-f1b02c.netlify.com/"
+                href="https://user-interface.netlify.com/"
                 target="_blank"
               >
                 <Media
