@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import {
+  Button,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Media
+} from 'reactstrap';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -30,10 +37,38 @@ class Contact extends React.Component {
         >
           <ModalBody>
             <h1>Contact</h1>
-            <p>
-              You can contact me here
-            </p>
+            <p>You can contact me here</p>
             <h3>benavidez1david@gmail.com</h3>
+            <div className="linksFlex">
+              <a href="https://github.com/DavidBenavidez123" target="_blank">
+                <Media
+                  object
+                  src={
+                    'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+                  }
+                  alt="Github"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/david-benavidez/"
+                target="_blank"
+              >
+                <Media
+                  object
+                  src={
+                    'https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png'
+                  }
+                  alt="Linkedin"
+                />
+              </a>
+              <a href="https://angel.co/david-benavidez" target="_blank">
+                <Media
+                  object
+                  src={'https://angel.co/images/shared/peace_large.jpg'}
+                  alt="Generic placeholder image"
+                />
+              </a>
+            </div>
           </ModalBody>
         </Modal>
       </div>

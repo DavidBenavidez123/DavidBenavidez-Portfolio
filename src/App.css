@@ -25,6 +25,17 @@ div.modal-content {
   padding: 20px;
 }
 
+.linksFlex img.media-object{
+  display: flex;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.linksFlex {
+  display: flex;
+  
+}
+
 .modal-body {
   opacity: 1;
   color: white;
