@@ -68,8 +68,6 @@ div.modal-content {
   margin-bottom: 20px;
 }
 
-
-
 img.media-object {
   height: 200px;
   margin-bottom: 20px;
@@ -156,12 +154,16 @@ img.media-object {
 }
 
 .Header.fade-appear h1{
-  opacity: 0;
+  opacity: 1;
+}
+.Header.fade-enter-done h1{
+  opacity: 1;
+  transition: opacity 1000ms linear;
 }
 
 .Header.fade-enter-done{
   opacity: 1;
-  transition: opacity 2000ms linear;
+  transition: opacity 3000ms linear;
 }
 
 .Header.fade-enter-done{
@@ -169,7 +171,7 @@ img.media-object {
   border-bottom: white 1px solid;
   padding-bottom: 30px;
   padding-top: 30px;
-  transition: 400ms;
+  transition: 1000ms;
 }
 
 .Homes.fade-enter-done{
@@ -180,7 +182,7 @@ img.media-object {
   background-size: cover;
   position: relative;
   opacity: 1;
-  transition: opacity 2000ms linear;
+  transition: opacity 1400ms linear;
 }
 
 @keyframes App-logo-spin {
