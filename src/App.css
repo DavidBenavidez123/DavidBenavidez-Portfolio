@@ -187,15 +187,8 @@ img.media-object {
 }
 @media screen and (max-width: 500px) {
   .Homes.fade-enter-done{
-    background-image: url(https://www.hdwallpaperslife.com/wp-content/uploads/2017/10/mountain_peaks_4k-2560x1440.jpg);
-    background-color: #cccccc;
     width: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    opacity: 1;
-    transition: opacity 1400ms linear;
+    height: -webkit-fill-available;
   }
 }
 
