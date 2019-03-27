@@ -181,11 +181,11 @@ img.media-object {
   opacity: 1;
   transition: opacity 1400ms linear;
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .Homes.fade-enter-done {
     width: 500px;
   }
-}
+} */
 
 @keyframes App-logo-spin {
   from {
