@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {
-  Button,
   Modal,
-  ModalHeader,
   ModalBody,
-  ModalFooter,
-  Media
+  Media,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+  
 } from 'reactstrap';
 
 class Contact extends React.Component {
@@ -37,8 +39,36 @@ class Contact extends React.Component {
         >
           <ModalBody>
             <h1>Contact</h1>
-            <p>You can contact me here</p>
-            <h3>benavidez1david@gmail.com</h3>
+            <Form>
+              <FormGroup>
+                <Label for="FirstName">Full name</Label>
+                <Input
+                  type="text"
+                  name="FirstName"
+                  onChange={this.handlechange}
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label for="exampleEmail">Email</Label>
+                <Input type="email" name="email" onChange={this.handlechange} />
+              </FormGroup>
+              <FormGroup>
+                <Label for="Subject">Subject</Label>
+                <Input
+                  type="text"
+                  name="Subject"
+                  onChange={this.handlechange}
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label for="exampleText">Text Area</Label>
+                <Input
+                  type="textarea"
+                  name="text"
+                  onChange={this.handlechange}
+                />
+              </FormGroup>
+            </Form>
             <div className="linksFlex">
               <a href="https://github.com/DavidBenavidez123" target="_blank">
                 <Media
