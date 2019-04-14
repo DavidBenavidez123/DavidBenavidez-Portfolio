@@ -29,7 +29,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <div className="contact" onClick={this.toggle}>
+        <div className="contact"  onClick={this.toggle}>
           Contact
         </div>
         <Modal
