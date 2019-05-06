@@ -29,7 +29,7 @@ div.modal-content {
   padding: 20px;
 }
 
-.linksFlex img.media-object{
+.linksFlex img.media-object {
   display: flex;
   height: 50px;
   margin-right: 20px;
@@ -37,7 +37,6 @@ div.modal-content {
 
 .linksFlex {
   display: flex;
-  
 }
 
 .modal-body {
@@ -71,7 +70,6 @@ div.modal-content {
 img.media-object {
   height: 200px;
   margin-bottom: 20px;
-  
 }
 
 .About {
@@ -82,8 +80,7 @@ img.media-object {
 }
 
 .About:hover {
-  background-color:rgba(192,192,192,0.3);
-
+  background-color: rgba(192, 192, 192, 0.3);
 }
 
 .front-back-flex {
@@ -120,8 +117,7 @@ img.media-object {
   transition: 0.3s;
 }
 .work:hover {
-  background-color:rgba(192,192,192,0.3);
-
+  background-color: rgba(192, 192, 192, 0.3);
 }
 .contact {
   cursor: pointer;
@@ -131,42 +127,39 @@ img.media-object {
 }
 
 .contact:hover {
-  background-color:rgba(192,192,192,0.3);
-
+  background-color: rgba(192, 192, 192, 0.3);
 }
 
 .Header {
-  
   width: 500px;
   text-align: center;
-  
 }
 
-.Homes.fade-appear{
+.Homes.fade-appear {
   opacity: 0;
 }
 
-.Header.fade-appear{
+.Header.fade-appear {
   border-top: white 1px solid;
   border-bottom: white 1px solid;
   padding-bottom: 0;
   padding-top: 0;
 }
 
-.Header.fade-appear h1{
+.Header.fade-appear h1 {
   opacity: 1;
 }
-.Header.fade-enter-done h1{
+.Header.fade-enter-done h1 {
   opacity: 1;
   transition: opacity 1000ms linear;
 }
 
-.Header.fade-enter-done{
+.Header.fade-enter-done {
   opacity: 1;
   transition: opacity 3000ms linear;
 }
 
-.Header.fade-enter-done{
+.Header.fade-enter-done {
   border-top: white 1px solid;
   border-bottom: white 1px solid;
   padding-bottom: 30px;
@@ -174,7 +167,7 @@ img.media-object {
   transition: 1000ms;
 }
 
-.Homes.fade-enter-done{
+.Homes.fade-enter-done {
   background-image: url(https://www.hdwallpaperslife.com/wp-content/uploads/2017/10/mountain_peaks_4k-2560x1440.jpg);
   background-color: #cccccc;
   width: 100vw;
@@ -185,8 +178,37 @@ img.media-object {
   opacity: 1;
   transition: opacity 1400ms linear;
 }
+
+.Contact {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  background-color: white;
+  border-radius: 5px;
+}
+.Contact h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  
+  padding: 10px;
+  color: black;
+}
+
+.button-container h4 {
+  font-weight: 200;
+  font-size: 20px;
+}
 @media screen and (max-width: 500px) {
-  .Homes.fade-enter-done{
+  .Homes.fade-enter-done {
     width: 500px;
     height: -webkit-fill-available;
     height: -moz-available;
