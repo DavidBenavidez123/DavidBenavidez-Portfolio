@@ -72,7 +72,7 @@ class Work extends React.Component {
             </p>
 
             <div className="projectImage">
-              <a href="https://front-end-6770.herokuapp.com/" target="_blank">
+              <a href="https://lambda-notetaking.netlify.com/" target="_blank">
                 <Media
                   object
                   src={
